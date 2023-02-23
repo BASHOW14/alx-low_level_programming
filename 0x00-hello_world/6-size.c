@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main - prints the size of diffrent buitin data types.
- * Return - Returns 0
+ * Return: Returns 0
  */
 int main(void)
 {
