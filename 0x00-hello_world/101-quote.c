@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	char s;
+	char *s;
 
 	s = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 	write(1, s, sizeof(s));
