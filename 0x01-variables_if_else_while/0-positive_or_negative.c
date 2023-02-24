@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include<stdio.h>
 /**
  * main- an entry-point to the program
  * Return: Returns 0(success)
