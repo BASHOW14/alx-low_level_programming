@@ -18,7 +18,11 @@ int main(void)
 				putchar(i);
 				putchar(j);
 				putchar(k);
-				if (i != 57)
+				if (i == 57)
+				{
+					break;
+				}
+				else
 				{
 					putchar(44);
 					putchar(32);
