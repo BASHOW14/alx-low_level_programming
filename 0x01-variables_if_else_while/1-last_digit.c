@@ -24,7 +24,7 @@ int main(void)
 	}
 	else if (k > 5)
 	{
-		printf("Last of %d is %d and is greater than 5");
+		printf("Last of %d is %d and is greater than 5", n, k);
 	}
 
 	return (0);
