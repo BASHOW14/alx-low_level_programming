@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * main - starting point of the program
  * Return: Returns 0 (success);
