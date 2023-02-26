@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * main - Starting point of our program
+ * print_alphabet - prints english lowercase letters from a-z
  *Return: Returns 0 (success)
  */
-int main(void)
+void print_alphabet(void)
 {
 	char c[] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
@@ -15,5 +15,4 @@ int main(void)
 		i++;
 	}
 	_putchar('\n');
-	return (0);
 }
