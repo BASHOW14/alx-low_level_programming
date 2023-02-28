@@ -9,6 +9,6 @@ int print_last_digit(int n)
 	int lsdit;
 
 	lsdit = n % 10;
-	_putchar(lsdit);
+	_putchar(lsdit * (lsdit - 1));
 	return (lsdit);
 }
