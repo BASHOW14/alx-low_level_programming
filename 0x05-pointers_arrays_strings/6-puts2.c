@@ -16,6 +16,10 @@ void puts2(char *str)
 			continue;
 
 		}
+		else if (i > 0 && str[i] >= 65 && str[i] <= 90)
+		{i
+			break;
+		}
 		else
 		{
 			_putchar(str[i]);
