@@ -11,7 +11,7 @@ void puts2(char *str)
 
 	while (str[i] != 0)
 	{
-		if (str[i] == '\n' || str[i] == '\r' || str[i] == 'space')
+		if (str[i] == '\n' || str[i] == '\r' || str[i] == '')
 		{
 			continue;
 
