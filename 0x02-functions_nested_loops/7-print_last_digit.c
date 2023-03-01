@@ -9,6 +9,7 @@ int print_last_digit(int n)
 	int lsdit;
 
 	lsdit = n % 10;
-	_putchar('\' + lsdit);
+	_putchar(48 + lsdit);
+
 	return (lsdit);
 }
