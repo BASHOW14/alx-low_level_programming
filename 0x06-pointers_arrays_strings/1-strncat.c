@@ -23,7 +23,7 @@ char *_strncat(char *dest, char *src, int n)
 		dest[j + i] = src[i];
 
 	}
-	if (src[i] != '\0')
+	if (src[i] != '\0' && i == n)
 
 		dest[i] = '\0';
 
