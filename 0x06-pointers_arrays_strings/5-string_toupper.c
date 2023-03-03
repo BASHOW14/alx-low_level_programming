@@ -19,7 +19,7 @@ char *string_toupper(char *s)
 			s[i] = j;
 		}
 		i++;
-	
+
 	}
 	return (s);
 }
