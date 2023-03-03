@@ -7,22 +7,20 @@
 void reverse_array(int *a, int n)
 {
 	int i;
-	int *temp;
+	int temp;
 	int j;
 
-	j = n;
-
-	int arr[n];
+	j = n - 1;
 
 	i = 0;
 
 	while (i < j)
 	{
-		arr[i] = a[--n];
+		temp = a[i];
+		a[i] = a[j];
+		a[j] = temp;
 		i++;
+		j--;
 	}
-
-	temp = a;
-
 
 }
