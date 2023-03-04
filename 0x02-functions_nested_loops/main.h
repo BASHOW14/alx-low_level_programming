@@ -9,4 +9,5 @@ int _abs(int);
 int print_last_digit(int);
 int _isalpha(int c);
 void jack_bauer(void);
+int add(int, int);
 #endif

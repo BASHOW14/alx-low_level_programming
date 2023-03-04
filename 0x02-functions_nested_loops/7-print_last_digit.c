@@ -7,7 +7,7 @@
 int print_last_digit(int n)
 {
 	int lsdit;
-
+ 
 	if (n < 0)
 	{
 		n = n + n + n;
