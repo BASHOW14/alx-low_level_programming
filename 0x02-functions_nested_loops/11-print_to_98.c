@@ -18,10 +18,9 @@ void print_to_98(int n)
 			}
 			else
 			{
-				printf("%d ", i);
+				printf("%d \n", i);
 			}
 		}
-		putchar(10);
 	}
 	else
 	{
@@ -33,10 +32,9 @@ void print_to_98(int n)
 			}
 			else
 			{
-				printf("%d ", i);
+				printf("%d \n", i);
 			}
 
 		}
-		putchar(10);
 	}
 }
