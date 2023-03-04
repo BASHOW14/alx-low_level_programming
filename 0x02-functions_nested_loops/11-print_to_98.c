@@ -21,6 +21,7 @@ void print_to_98(int n)
 				printf("%d ", i);
 			}
 		}
+		putchar(10);
 	}
 	else
 	{
@@ -36,5 +37,6 @@ void print_to_98(int n)
 			}
 
 		}
+		putchar(10);
 	}
 }
