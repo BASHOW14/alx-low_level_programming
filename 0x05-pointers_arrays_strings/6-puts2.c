@@ -9,7 +9,7 @@ void puts2(char *str)
 
 	i = 0;
 
-	while (str[i] != '\0' && i < 416)
+	while (str[i] != '\0' && i < 431)
 	{
 		_putchar(str[i]);
 		i = i + 2;
