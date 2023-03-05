@@ -13,7 +13,7 @@ void print_array(int *a, int n)
 
 	if (n <= 0)
 	{
-		exit(1);
+		return (0);
 	}
 	else
 	{
@@ -29,5 +29,7 @@ void print_array(int *a, int n)
 				printf("%d, ", a[i]);
 			}
 			i++;
+		}
 
+	}
 }
