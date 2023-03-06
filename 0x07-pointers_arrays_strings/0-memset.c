@@ -1,4 +1,4 @@
-#include "min.h"
+#include "main.h"
 /**
  * _memset - fills first n byte of memory with constant byte
  * Return: Returns a pointer to the beginning of the array.
@@ -8,7 +8,7 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	int i;
+	unsigned int i;
 
 	i = 0;
 	while (i < n)
